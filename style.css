@@ -1,37 +1,77 @@
+body {
+	font-size: 100%;
+	background: #ffffa3;
+}
+
 /* set up default minimum page width */
 header, main, footer {
 	min-width: 855px;
 }
 
-body {
-	font-size: 100%;
-	background: #ffffd6;
+/* set up widths of containing divs */
+.container {
+	max-width: 855px;
+	margin:auto;
 }
 
+/* set up header section of the page with title and some nav links */
 header	{
 	font-family: 'Slabo 27px', serif;
-	background: #ffffff;
+	background: #faffff;
+	padding: 55px 0px 100px 0px;
 }
 
-/* set font for the links in the header */
-nav {
+/* set font and positions for the two header elements in the header */
+.title {
+	font-size: 4em;
+	font-style: italic;
+	width: 570px;
+	float: left;
+}
+
+.topnav {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.5em;
+	width: 285px;
+	float: right;
+	text-align: center;
+	padding-top: 20px;
 }
 
+/* set up the main section of the page with 2 textboxes on the left and image on the right */
 main {
+	background: #faffff;
+	padding-bottom: 35px;
+}
+
+.lefttext {
 	font-family: 'Slabo 27px', serif;
 	font-size: 1.2em;
-	background: #ffffff;
-}
-
-h1 {
-	font-size: 3em;
+	max-width: 570px;
+	float: left;
 }
 
 /* styling of the header text in the body section of the page */
-h2 {
-	font-family: 'Slabo 27px', serif;
-	font-size: 2em;
-	font-style: italic;
+.lefttext h2 {
+	font-size: 1.5em;
+	padding-bottom: 15px;
+}
+
+.lefttext h3 {
+	font-size: 1.2em;
+	padding-bottom: 15px;
+}
+
+.descrtext {
+	padding: 0px 20px 35px 0px;
+}
+
+.bodyimage img {
+	max-width: 285px;
+	display: block;
+	margin: auto;
+}
+
+footer {
+	padding-top: 55px;
 }
