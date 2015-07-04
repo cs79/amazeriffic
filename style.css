@@ -18,7 +18,7 @@ header, main, footer {
 header	{
 	font-family: 'Slabo 27px', serif;
 	background: #faffff;
-	padding: 55px 0px 100px 0px;
+	padding: 55px 0px 110px 0px;
 }
 
 /* set font and positions for the two header elements in the header */
@@ -42,11 +42,11 @@ header	{
 main {
 	background: #faffff;
 	padding-bottom: 35px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.2em;
 }
 
 .lefttext {
-	font-family: 'Slabo 27px', serif;
-	font-size: 1.2em;
 	max-width: 570px;
 	float: left;
 }
@@ -74,4 +74,30 @@ main {
 
 footer {
 	padding-top: 55px;
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.2em;
+}
+
+footer h5 {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.contact {
+	width: 570px;
+	float: left;
+}
+
+.sitemap {
+	width: 285px;
+	float: right;
+}
+
+.leftsitemap {
+	float: left;
+}
+
+.rightsitemap {
+	float: right;
 }
