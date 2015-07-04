@@ -1,23 +1,37 @@
-/*body {
-	font-size: 100%;
+/* set up default minimum page width */
+header, main, footer {
+	min-width: 855px;
 }
 
-h1 {
+body {
+	font-size: 100%;
+	background: #ffffd6;
+}
+
+header	{
 	font-family: 'Slabo 27px', serif;
-	font-size: 3em;
+	background: #ffffff;
+}
+
+/* set font for the links in the header */
+nav {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
 }
 
 main {
 	font-family: 'Slabo 27px', serif;
 	font-size: 1.2em;
+	background: #ffffff;
 }
 
+h1 {
+	font-size: 3em;
+}
+
+/* styling of the header text in the body section of the page */
 h2 {
 	font-family: 'Slabo 27px', serif;
-	font-size: larger;
+	font-size: 2em;
+	font-style: italic;
 }
-
-nav {
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
-}*/
