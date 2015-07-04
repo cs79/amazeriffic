@@ -1,0 +1,23 @@
+body {
+	font-size: 100%;
+}
+
+h1 {
+	font-family: 'Slabo 27px', serif;
+	font-size: 3em;
+}
+
+main {
+	font-family: 'Slabo 27px', serif;
+	font-size: 1.2em;
+}
+
+h2 {
+	font-family: 'Slabo 27px', serif;
+	font-size: larger;
+}
+
+nav {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2em;
+}
